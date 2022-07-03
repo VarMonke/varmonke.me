@@ -1,0 +1,64 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#mydiv {
+  position: absolute;
+  z-index: 10;
+  background-color: white;
+  border: 1px solid whitesmoke;
+  text-align: center;
+  border-radius: 40px;
+  width: 500px;
+  height: 510px;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  width: 500px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#project-info {
+  position: absolute;
+  z-index: 11;
+  background-color: white;
+  border: 1px solid whitesmoke;
+  text-align: center;
+  border-radius: 40px;
+  width: 500px;
+  height: 200px;
+}
+
+#_mydivheader {
+  padding: 0px;
+  cursor: move;
+  z-index: 10;
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  width: 500px;
+  height: 200px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+

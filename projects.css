@@ -1,0 +1,20 @@
+#noise {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#mydiv {
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  border-radius: 40px;
+  width: 350px;
+  height: 350px;
+}
+
+#github {
+ width: 10px;
+  height: 10px;
+}
